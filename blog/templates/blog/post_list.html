@@ -8,8 +8,10 @@
   <h3>Ok, chega de sub-títulos</h3>
   <p>Hi there!</p>
   <strong>It Works!</strong>
-  <div>
-    <ul><li>Primeiro item</li><li>Segundo item</li><li>Terceiro item</li></ul>
-  </div>
+  {% for post in posts %}
+    <div>
+        <ul><li>Primeiro item</li><li>Segundo item</li><li>Terceiro item</li></ul>
+    </div>
+{% endfor %}
 </body>
 </html>
